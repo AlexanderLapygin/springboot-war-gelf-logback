@@ -13,7 +13,7 @@
     </parent>
 
     <groupId>org.softspiders</groupId>
-    <artifactId>springboot-war-prometheus</artifactId>
+    <artifactId>springboot-war-prometheus-gelf-logback</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
 

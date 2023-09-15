@@ -6,7 +6,7 @@
 
 UNDER DEVELOPMENT
 
-# Spring Boot WAR with monitoring on Prometheus and GELF on Logback
+# Spring Boot WAR with logging by GELF on Logback
 
 
 ## Feature tags
@@ -15,7 +15,6 @@ UNDER DEVELOPMENT
 - gelf
 - logback
 - maven
-- prometheus
 - spring-boot
 - starter
 - template
@@ -49,11 +48,11 @@ UNDER DEVELOPMENT
 ```sh
 mvn clean package
 ```
-2) Copy the resulting *springboot-war-prometheus.war* file to the *webapps* directory of your Tomcat server.
-
+2) Copy the resulting *springboot-war-gelf-logback.war* file to the *webapps* directory of your Tomcat server.
 3) Start the Tomcat server by executing the appropriate startup script for your operating system. For example, run startup.sh (for Unix) or startup.bat (for Windows).
+4) After Tomcat starts successfully, your application will be accessible at http://localhost:8080/springboot-war-gelf-logback/hello.
+5) Watch "Hello, World" at the browser.
 
-4) After Tomcat starts successfully, your application will be accessible at http://localhost:8080/springboot-war-prometheus/hello.
 
 ### License
 

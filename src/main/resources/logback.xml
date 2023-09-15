@@ -1,0 +1,16 @@
+<configuration>
+  <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%date{HH:mm} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+  <appender name="GELF" class="de.siegmar.logbackgelf.GelfUdpAppender">
+    <graylogHost>127.0.0.1</graylogHost>
+    <graylogPort>12201</graylogPort>
+  </appender>
+
+  <root level="trace">
+    <appender-ref ref="GELF"/>
+    <appender-ref ref="CONSOLE"/>
+  </root>
+</configuration>

@@ -13,7 +13,7 @@
     </parent>
 
     <groupId>org.softspiders</groupId>
-    <artifactId>springboot-war-prometheus-gelf-logback</artifactId>
+    <artifactId>springboot-war-gelf-logback</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
 
@@ -38,13 +38,14 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.7</version> <!-- Укажите актуальную версию Logback -->
         </dependency>
         <dependency>
-            <groupId>io.micrometer</groupId>
-            <artifactId>micrometer-registry-prometheus</artifactId>
-            <version>1.10.5</version>
+            <groupId>de.siegmar</groupId>
+            <artifactId>logback-gelf</artifactId>
+            <version>4.0.2</version>
         </dependency>
     </dependencies>
 

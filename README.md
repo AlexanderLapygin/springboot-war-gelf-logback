@@ -6,12 +6,14 @@
 
 UNDER DEVELOPMENT
 
-# Spring Boot WAR with monitoring on Prometheus
+# Spring Boot WAR with monitoring on Prometheus and GELF on Logback
 
 
 ## Feature tags
 
 - actuator
+- gelf
+- logback
 - maven
 - prometheus
 - spring-boot
@@ -23,7 +25,7 @@ UNDER DEVELOPMENT
 
 ## Direct ancestor
 
-[- actuator,prometheus](https://github.com/AlexanderLapygin/springboot-war-helloworld#readme)
+[- gelf,logback](https://github.com/AlexanderLapygin/springboot-war-prometheus#readme)
 
 ---
 

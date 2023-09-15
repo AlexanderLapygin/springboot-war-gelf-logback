@@ -24,7 +24,7 @@ UNDER DEVELOPMENT
 
 ## Direct ancestor
 
-[- gelf,logback](https://github.com/AlexanderLapygin/springboot-war-prometheus#readme)
+[- gelf,logback](https://github.com/AlexanderLapygin/springboot-war-helloworld#readme)
 
 ---
 

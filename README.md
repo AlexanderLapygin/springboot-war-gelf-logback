@@ -51,7 +51,7 @@ mvn clean package
 2) Copy the resulting *springboot-war-gelf-logback.war* file to the *webapps* directory of your Tomcat server.
 3) Start the Tomcat server by executing the appropriate startup script for your operating system. For example, run startup.sh (for Unix) or startup.bat (for Windows).
 4) After Tomcat starts successfully, your application will be accessible at http://localhost:8080/springboot-war-gelf-logback/hello.
-5) Watch "Hello, World" at the browser.
+5) Watch "Hello, World!" at the browser.
 
 
 ### License

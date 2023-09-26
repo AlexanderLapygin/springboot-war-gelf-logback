@@ -4,8 +4,6 @@
     </a>
 </div> 
 
-UNDER DEVELOPMENT
-
 # Spring Boot with logging by GELF for Graylog on Logback in war
 
 
